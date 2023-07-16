@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Game Reviwer</title>
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css" />
+  <script src="https://cdn.plyr.io/3.6.8/plyr.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="assets\icons\favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets\icons\favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets\icons\favicon/favicon-16x16.png" />
+  <link rel="stylesheet" type="text/css" href="../stylesheets/style1.css" />
+  <link rel="stylesheet" type="text/css" href="../stylesheets/style2.css" />
+  <link rel="stylesheet" type="text/css" href="../stylesheets/style5r.css" />
+  <link rel="stylesheet" href="../stylesheets/responsive2.css">
+</head>
+
+<body>
+  <script src="https://kit.fontawesome.com/1b07e5d719.js" crossorigin="anonymous">
+  </script>
+  <header>
+    <nav role="navigation">
+      <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+          <a href="../index.html">
+            <li><i class="fa fa-home" aria-hidden="true"></i>Home</li>
+          </a>
+          <a href="../loginform.html">
+            <li>
+              <i class="fa fa-user-plus" aria-hidden="true"></i>Join_us
+            </li>
+          </a>
+          <a href="#">
+            <li>
+              <i class="fa fa-info-circle" aria-hidden="true"></i>Info
+            </li>
+          </a>
+          <a href="mailto:himanshuuikey43@gmail.com">
+            <li>
+              <i class="fa fa-address-card" aria-hidden="true"></i>Contact
+            </li>
+          </a>
+        </ul>
+      </div>
+    </nav>
+    <div class="title-bar">
+      <a href="../index.html"><img src="../assets/images/videogame.png" alt="home" />Game&nbspReviwer</a>
+    </div>
+  </header>
+  <div class="row">
+    <div class="review">
+      <h2>God Of War:Raganrok </h2>
+      <img src="../assets/images/GOWraganrok.jpg" alt="Game Poster">
+      <p>
+        His vengeance against the Gods of Olympus years behind him, Kratos now lives as a man in the realm of Norse Gods and monsters. It is in this harsh, unforgiving world that he must fight to survive… and teach his son to do the same.
+            <br>
+            Kratos is a father again. As mentor and protector to Atreus, a son determined to earn his respect, he is forced to deal with and control the rage that has long defined him while out in a very dangerous world with his son.
+      </p>
+      <div class="video-container">
+        <video id="my-video" controls>
+          <source src="../assets/video/GOW.mp4" type="video/mp4" />
+        </video>
+      </div><br>
+      <p>
+       God of War: Ragnarok is the closest thing you will get to a perfect AAA title in 2022, and players should definitely try it out.
+      </p>
+    </div>
+  </div>
+<br><br>
+  <footer>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+    <div class="newsletter">
+      <h3>Join Our Newsletter Today</h3>
+      <form>
+        <input type="email" placeholder="Enter your email address">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+    <div class="contact">
+      <h3>Contact Us for Support</h3>
+      <p>Email: GameReviewer@gmail.com</p>
+      <p>Phone: +91 **********</p>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2023 Game Reviewer. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const player = new Plyr('#my-video');
+  </script>
+</body>
+</html>

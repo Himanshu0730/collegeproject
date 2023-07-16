@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Game Reviwer</title>
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css" />
+  <script src="https://cdn.plyr.io/3.6.8/plyr.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="assets\icons\favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets\icons\favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets\icons\favicon/favicon-16x16.png" />
+  <link rel="stylesheet" type="text/css" href="../stylesheets/style1.css" />
+  <link rel="stylesheet" type="text/css" href="../stylesheets/style2.css" />
+  <link rel="stylesheet" type="text/css" href="../stylesheets/style5r.css" />
+  <link rel="stylesheet" href="../stylesheets/responsive2.css">
+</head>
+
+<body>
+  <script src="https://kit.fontawesome.com/1b07e5d719.js" crossorigin="anonymous">
+  </script>
+  <header>
+    <nav role="navigation">
+      <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+          <a href="../index.html">
+            <li><i class="fa fa-home" aria-hidden="true"></i>Home</li>
+          </a>
+          <a href="../loginform.html">
+            <li>
+              <i class="fa fa-user-plus" aria-hidden="true"></i>Join_us
+            </li>
+          </a>
+          <a href="#">
+            <li>
+              <i class="fa fa-info-circle" aria-hidden="true"></i>Info
+            </li>
+          </a>
+          <a href="mailto:himanshuuikey43@gmail.com">
+            <li>
+              <i class="fa fa-address-card" aria-hidden="true"></i>Contact
+            </li>
+          </a>
+        </ul>
+      </div>
+    </nav>
+    <div class="title-bar">
+      <a href="../index.html"><img src="../assets/images/videogame.png" alt="home" />Game&nbspReviwer</a>
+    </div>
+  </header>
+  <div class="row">
+    <div class="review">
+      <h2>GTA 5</h2>
+      <img src="../assets/images/gta5.jpg" alt="Game Poster">
+      <p>
+        Grand Theft Auto V is an  extraordinary scope is summed up in two favourite moments. One is from a mid-game mission in which I flew a plane into another plane, fought the crew, hijacked the thing, and then parachuted out and watched it crash into the sea to escape death at the hands of incoming military fighter jets. Another time, whilst driving around in an off-road buggy, I got distracted by something that looked like a path up one of the San Andreas mountains. Turns out it was a path, and I spent 15 minutes following to the summit, where I nearly ran over a group of hikers. “Typical!” one of them yelled at me, as if he nearly gets run over by a rogue ATV on top of a mountain every time he goes on a hike.
+        <br>
+        I could go on like this for ages. GTA V has an abundance of such moments, big and small, that make San Andreas – the city of Los Santos and its surrounding areas – feel like a living world where anything can happen. It both gives you tremendous freedom to explore an astonishingly well-realised world and tells a story that’s gripping, thrilling, and darkly comic. It is a leap forward in narrative sophistication for the series, and there’s no mechanical element of the gameplay that hasn’t been improved over Grand Theft Auto IV. It’s immediately noticeable that the cover system is more reliable and the auto-aim less touchy. The cars handle less like their tires are made of butter and stick better to the road, though their exaggerated handling still leaves plenty of room for spectacular wipeouts. And at long last, Rockstar has finally slain one of its most persistent demons, mission checkpointing, ensuring that you never have to do a long, tedious drive six times when you repeatedly fail a mission ever again.
+      </p>
+      <div class="video-container">
+        <video id="my-video" controls>
+          <source src="../assets/video/GTA5.mp4" type="video/mp4" />
+        </video>
+      </div><br>
+      <p>
+        Grand Theft Auto V is not only a preposterously enjoyable video game, but also an intelligent and sharp-tongued satire of contemporary America. It represents a refinement of everything that GTA IV brought to the table five years ago. It’s technically more accomplished in every conceivable way, but it’s also tremendously ambitious in its own right. No other world in video games comes close to this in size or scope, and there is sharp intelligence behind its sense of humour and gift for mayhem. It tells a compelling, unpredictable, and provocative story without ever letting it get in the way of your own self-directed adventures through San Andreas. It is one of the very best video games ever made.
+      </p>
+    </div>
+  </div>
+  <br><br>
+  <footer>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+    <div class="newsletter">
+      <h3>Join Our Newsletter Today</h3>
+      <form>
+        <input type="email" placeholder="Enter your email address">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+    <div class="contact">
+      <h3>Contact Us for Support</h3>
+      <p>Email: GameReviewer@gmail.com</p>
+      <p>Phone: +91 **********</p>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2023 Game Reviewer. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const player = new Plyr('#my-video');
+  </script>
+</body>
+</html>

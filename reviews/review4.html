@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Game Reviwer</title>
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css" />
+  <script src="https://cdn.plyr.io/3.6.8/plyr.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="assets\icons\favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets\icons\favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets\icons\favicon/favicon-16x16.png" />
+  <link rel="stylesheet" type="text/css" href="../stylesheets/style1.css" />
+  <link rel="stylesheet" type="text/css" href="../stylesheets/style2.css" />
+  <link rel="stylesheet" type="text/css" href="../stylesheets/style5r.css" />
+  <link rel="stylesheet" href="../stylesheets/responsive2.css">
+</head>
+<body>
+  <script src="https://kit.fontawesome.com/1b07e5d719.js" crossorigin="anonymous">
+  </script>
+  <header>
+    <nav role="navigation">
+      <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+          <a href="../index.html">
+            <li><i class="fa fa-home" aria-hidden="true"></i>Home</li>
+          </a>
+          <a href="../loginform.html">
+            <li>
+              <i class="fa fa-user-plus" aria-hidden="true"></i>Join_us
+            </li>
+          </a>
+          <a href="#">
+            <li>
+              <i class="fa fa-info-circle" aria-hidden="true"></i>Info
+            </li>
+          </a>
+          <a href="mailto:himanshuuikey43@gmail.com">
+            <li>
+              <i class="fa fa-address-card" aria-hidden="true"></i>Contact
+            </li>
+          </a>
+        </ul>
+      </div>
+    </nav>
+    <div class="title-bar">
+      <a href="../index.html"><img src="../assets/images/videogame.png" alt="home" />Game&nbspReviwer</a>
+    </div>
+  </header>
+  <div class="row">
+    <div class="review">
+      <h1>Valorant</h1>
+      <img src="../assets/images/valorant.jpg" alt="Game Poster">
+      <p>
+        Valorant, a 5v5 tactical hero shooter developed by Riot Games, captivated me with its intense bomb plants, precise hip fire headshots, and impressive flick shots. I was hooked from my first strategic victory and remained enamored with the game's diverse cast of superpowered characters and excellent gun mechanics, investing a total of 90 hours from closed beta to full release. Although the learning curve is steep, once I grasped the mechanics, I found it incredibly difficult to stop playing Valorant.
+      </p>
+      <div class="video-container">
+        <video id="my-video" controls>
+          <source src="../assets/video/Val.mp4" type="video/mp4" />
+        </video>
+      </div><br>
+      <p>
+        If you've played Counter-Strike in the past two decades, you'll find Valorant's high-stakes round-based shootouts instantly familiar. The teams are split into attackers and defenders. Attackers carry the spike (a bomb) to designated bombsites on the map, aiming to plant it and cause an explosion. Defenders try to eliminate the attackers before they can succeed or defuse the spike if it's planted. The goal is to achieve your team's objective or eliminate the opposing team to secure a victory. Winning 13 rounds will lead to a victorious outcome in the match.
+      </p>
+      <p>While the inclusion of boisterous, Overwatch-style ults in a Counter-Strike-style tactical shooter had me wary at  first, the time-to-kill in Valorant is extraordinarily low: a single bullet can spell your end. It creates as pectacular sense of tension, encouraging scenarios where the sound of distant gunfire sends chills down your spine. Going in, I was worried ultimate abilities (ults) might hurt that atmosphere and homogenize strategy. Thus far, though, I don't think that's the case in practice: Valorant balances ults by making them cost points to use instead of putting them on a cooldown. You gain these by dying, picking up gathering nodes, and, most importantly: killing opponents.</p>
+      <p>
+       On top of that, you need to choose which lesser abilities to buy into as well. I'm no stranger to perusing a weapons catalog at the start of a round, carefully mulling over whether I should buy a fancy machine gun or hold off, saving my hard-earned cash for later in the match. What's new to me, though, is how Valorant cleverly injects some hero shooter DNA into the buy phase by making two or three abilities (it varies per character) of its 10 playable Agents purchasable rather than just be available on cooldowns. It takes time to get into Valorant's rhythm, particularly if you're not used to micromanaging an in-game economy in shooters.
+
+</p>
+    </div>
+  </div>
+<br><br>
+  <footer>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+    <div class="newsletter">
+      <h3>Join Our Newsletter Today</h3>
+      <form>
+        <input type="email" placeholder="Enter your email address">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+    <div class="contact">
+      <h3>Contact Us for Support</h3>
+      <p>Email: GameReviewer@gmail.com</p>
+      <p>Phone: +91 **********</p>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2023 Game Reviewer. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const player = new Plyr('#my-video');
+  </script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Game Reviwer</title>
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css" />
+  <script src="https://cdn.plyr.io/3.6.8/plyr.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="assets\icons\favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets\icons\favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets\icons\favicon/favicon-16x16.png" />
+  <link rel="stylesheet" type="text/css" href="../stylesheets/style1.css" />
+  <link rel="stylesheet" type="text/css" href="../stylesheets/style2.css" />
+  <link rel="stylesheet" type="text/css" href="../stylesheets/style5r.css" />
+  <link rel="stylesheet" href="../stylesheets/responsive2.css">
+</head>
+<body>
+  <script src="https://kit.fontawesome.com/1b07e5d719.js" crossorigin="anonymous">
+  </script>
+  <header>
+    <nav role="navigation">
+      <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+          <a href="../index.html">
+            <li><i class="fa fa-home" aria-hidden="true"></i>Home</li>
+          </a>
+          <a href="../loginform.html">
+            <li>
+              <i class="fa fa-user-plus" aria-hidden="true"></i>Join_us
+            </li>
+          </a>
+          <a href="#">
+            <li>
+              <i class="fa fa-info-circle" aria-hidden="true"></i>Info
+            </li>
+          </a>
+          <a href="mailto:himanshuuikey43@gmail.com">
+            <li>
+              <i class="fa fa-address-card" aria-hidden="true"></i>Contact
+            </li>
+          </a>
+        </ul>
+      </div>
+    </nav>
+    <div class="title-bar">
+      <a href="../index.html"><img src="../assets/images/videogame.png" alt="home" />Game&nbspReviwer</a>
+    </div>
+  </header>
+  <div class="row">
+    <div class="review">
+      <h2>Minecraft</h2>
+      <img src="../assets/images/minecraft.jpg" alt="Game Poster">
+      <p>
+        Minecraft is a randomly generated worlds are composed of big blocky cubes of dirt, stone, sand, and dozens of other materials. The blocks are colorful, distinct, and memorable thanks to simple and charming textures. What makes them great is how they enable creativity. Piece by piece you’ll rearrange and refine the pristine, primordial world into whatever you want. It could be a mountainside home, a brick house, a sky bridge, or any other creation you can envision. This is a power we rarely see in games, and the freedom it offers is, at first, daunting.
+      </p>
+      <div class="video-container">
+        <video id="my-video" controls>
+          <source src="../assets/video/minecraft.mp4" type="video/mp4" />
+        </video>
+      </div><br>
+      <p>
+        In Survival mode, each block must be chipped at and collected by hand from an open world. What initially feels like a tedious task becomes the basis for Minecraft’s rewarding core gameplay. I had to gather, transport, and place each piece of my home myself, so it was impossible not to feel a fierce sense of pride and ownership over it and all my other creations, big and small.
+      </p>
+    </div>
+  </div>
+<br><br>
+  <footer>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+    <div class="newsletter">
+      <h3>Join Our Newsletter Today</h3>
+      <form>
+        <input type="email" placeholder="Enter your email address">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+    <div class="contact">
+      <h3>Contact Us for Support</h3>
+      <p>Email: GameReviewer@gmail.com</p>
+      <p>Phone: +91 **********</p>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2023 Game Reviewer. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const player = new Plyr('#my-video');
+  </script>
+</body>
+</html>
